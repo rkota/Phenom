@@ -13,14 +13,15 @@ appropriately.
 **Part 2 :** Next step is to build summarization model. This model should give the Job summary,
 meaning the summary should contain the meaning and knowledge about the Job. It must be at
 least 50% less than the original Job description.
+
 **Input:**
 File contains one JSON per line. Each json object describes a job which contains the following
 fields : title, description, id, posted date, category, location.
-[Output File](https://github.com/rkota/Phenom/blob/master/src/main/resources/jobs.json)
+[Input File](https://github.com/rkota/Phenom/blob/master/src/main/resources/jobs.json)
 
 
 **Output:**
-[Input File](https://github.com/rkota/Phenom/blob/master/src/main/resources/jobs_summery.txt)
+[Output File](https://github.com/rkota/Phenom/blob/master/src/main/resources/jobs_summery.txt)
 
 # Requirements
 
