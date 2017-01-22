@@ -51,6 +51,21 @@ object Utils {
     
     
   }
+ /* def summarize( document:String, numSentences:Int):String= {
+    var annotation = pipeline.process(document);
+    var sentences = annotation.get(new CoreAnnotations.SentencesAnnotation)
+
+    var tfs = getTermFrequencies(sentences);
+    sentences = rankSentences(sentences, tfs);
+
+    var ret = new StringBuilder();
+    for ( i <-  0 to numSentences) {
+      ret.append(sentences.get(i));
+      ret.append(" ");
+    }
+
+    ret.toString();
+  }*/
   
   def getNgrams(words : Array[String]) : ListBuffer[String] = {
     var ngram = ListBuffer[String]()
